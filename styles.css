@@ -20,10 +20,6 @@ a {
     text-decoration: none;
 }
 
-.header a {
-    font-size: 18px;
-    color: #E5E7EB;
-}
 
 .header {
     background-color: #1F2937;
@@ -31,8 +27,15 @@ a {
     align-items: baseline;
 }
 
-.header p {
+.header p { /* Header Logo */
     font-size: 24px;
     font-weight: bold;
     color: #F9FaF8;
+    flex: 1;
+}
+
+.header a { /* Header Links */
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 2;
 }
