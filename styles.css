@@ -174,15 +174,19 @@ a {
     padding: 50px 120px 50px 120px;
 }
 
+.call_to_action .text {
+    margin: 0;
+}
+
 .call_to_action .headline {
     font-size: 24px;
     font-weight: 600;
-    margin: 0;
+    /* margin: 0; */
     
 }
-.call_to_action .body {
+/* .call_to_action .body {
     margin: 0;
-}
+} */
 
 .call_to_action button {
     color: #f9faf8;
