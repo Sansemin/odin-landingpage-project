@@ -12,12 +12,17 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 16px;
+    gap: 48px;
     align-items: center;
 }
 
 a {
     text-decoration: none;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header {
