@@ -22,7 +22,7 @@ a {
     text-decoration: none;
 }
 
-
+/* Header */
 .header {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -40,4 +40,13 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     flex: 2;
+}
+
+/* Hero section */
+
+
+.hero-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
 }
