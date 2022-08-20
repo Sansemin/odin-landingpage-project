@@ -28,6 +28,7 @@ a {
 .header {
     background-color: #1F2937;
     color: #E5E7EB;
+    align-items: baseline;
 }
 
 .header p {
