@@ -49,6 +49,10 @@ a {
     justify-content: space-evenly;
 }
 
+.hero-container {
+    flex: 1;
+}
+
 .hero-text {
     color: #f9faf8;
     font-size: 48px;
@@ -64,4 +68,5 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
