@@ -106,7 +106,7 @@ a {
     justify-content: space-evenly;
 }
 
-.card {
+.showcase .card {
     width: 168px;
     margin-bottom: 120px;
 }
@@ -121,7 +121,7 @@ a {
     height: 160px
 }
 
-.card p {
+.card>p {
     text-align: center;
     font-size: 17px;
     font-weight: 500;
@@ -154,4 +154,45 @@ a {
     font-size: 26px;
     font-weight: bold;
     font-style: normal;
+}
+
+/* Call to action */
+.call_to_action {
+    justify-content: stretch;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.call_to_action>.card{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px 50px 120px;
+}
+
+.call_to_action .headline {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    
+}
+.call_to_action .body {
+    margin: 0;
+}
+
+.call_to_action button {
+    color: #f9faf8;
+    background-color: transparent;
+    border-color: #3882F6;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 17px;
+    font-weight: 600;
 }
