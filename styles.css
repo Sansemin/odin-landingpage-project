@@ -56,3 +56,10 @@ a {
 .hero-subtext {
     color: #E5E7EB;
 }
+.hero-image-placeholder {
+    background-color: #6d747d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
