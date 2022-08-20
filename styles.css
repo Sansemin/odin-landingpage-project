@@ -196,3 +196,13 @@ a {
     font-size: 17px;
     font-weight: 600;
 }
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #ffffff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
