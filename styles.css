@@ -53,6 +53,7 @@ a {
 
 .hero-container {
     flex: 1;
+    padding-right: 16px;
 }
 
 .hero-text {
