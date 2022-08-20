@@ -75,3 +75,15 @@ a {
     align-items: center;
     flex: 1;
 }
+
+.hero-container button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 17px;
+    font-weight: 600;
+}
