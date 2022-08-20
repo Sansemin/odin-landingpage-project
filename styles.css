@@ -43,7 +43,9 @@ a {
 }
 
 /* Hero section */
-
+.hero {
+    background-color: #1f2937;
+}
 
 .hero-text {
     color: #f9faf8;
